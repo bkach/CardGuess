@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D86FBC6C16F3916000BB2DD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6B16F3916000BB2DD0 /* UIKit.framework */; };
+		D86FBC6E16F3916000BB2DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6D16F3916000BB2DD0 /* Foundation.framework */; };
+		D86FBC7016F3916000BB2DD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6F16F3916000BB2DD0 /* CoreGraphics.framework */; };
+		D86FBC7616F3916000BB2DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D86FBC7416F3916000BB2DD0 /* InfoPlist.strings */; };
+		D86FBC7816F3916000BB2DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FBC7716F3916000BB2DD0 /* main.m */; };
+		D86FBC7C16F3916000BB2DD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FBC7B16F3916000BB2DD0 /* AppDelegate.m */; };
+		D86FBC7E16F3916000BB2DD0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D86FBC7D16F3916000BB2DD0 /* Default.png */; };
+		D86FBC8016F3916000BB2DD0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D86FBC7F16F3916000BB2DD0 /* Default@2x.png */; };
+		D86FBC8216F3916000BB2DD0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D86FBC8116F3916000BB2DD0 /* Default-568h@2x.png */; };
+		D86FBC8A16F3916100BB2DD0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC8916F3916100BB2DD0 /* SenTestingKit.framework */; };
+		D86FBC8B16F3916100BB2DD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6B16F3916000BB2DD0 /* UIKit.framework */; };
+		D86FBC8C16F3916100BB2DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6D16F3916000BB2DD0 /* Foundation.framework */; };
+		D86FBC9416F3916100BB2DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D86FBC9216F3916100BB2DD0 /* InfoPlist.strings */; };
+		D86FBC9716F3916100BB2DD0 /* CardGuessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FBC9616F3916100BB2DD0 /* CardGuessTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D86FBC8D16F3916100BB2DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86FBC6016F3916000BB2DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86FBC6716F3916000BB2DD0;
+			remoteInfo = CardGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D86FBC6816F3916000BB2DD0 /* CardGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86FBC6B16F3916000BB2DD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D86FBC6D16F3916000BB2DD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D86FBC6F16F3916000BB2DD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D86FBC7316F3916000BB2DD0 /* CardGuess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardGuess-Info.plist"; sourceTree = "<group>"; };
+		D86FBC7516F3916000BB2DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D86FBC7716F3916000BB2DD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D86FBC7916F3916000BB2DD0 /* CardGuess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardGuess-Prefix.pch"; sourceTree = "<group>"; };
+		D86FBC7A16F3916000BB2DD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D86FBC7B16F3916000BB2DD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D86FBC7D16F3916000BB2DD0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D86FBC7F16F3916000BB2DD0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D86FBC8116F3916000BB2DD0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D86FBC8816F3916100BB2DD0 /* CardGuessTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGuessTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86FBC8916F3916100BB2DD0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D86FBC9116F3916100BB2DD0 /* CardGuessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardGuessTests-Info.plist"; sourceTree = "<group>"; };
+		D86FBC9316F3916100BB2DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D86FBC9516F3916100BB2DD0 /* CardGuessTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGuessTests.h; sourceTree = "<group>"; };
+		D86FBC9616F3916100BB2DD0 /* CardGuessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGuessTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D86FBC6516F3916000BB2DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FBC6C16F3916000BB2DD0 /* UIKit.framework in Frameworks */,
+				D86FBC6E16F3916000BB2DD0 /* Foundation.framework in Frameworks */,
+				D86FBC7016F3916000BB2DD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86FBC8416F3916100BB2DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FBC8A16F3916100BB2DD0 /* SenTestingKit.framework in Frameworks */,
+				D86FBC8B16F3916100BB2DD0 /* UIKit.framework in Frameworks */,
+				D86FBC8C16F3916100BB2DD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D86FBC5F16F3916000BB2DD0 = {
+			isa = PBXGroup;
+			children = (
+				D86FBC7116F3916000BB2DD0 /* CardGuess */,
+				D86FBC8F16F3916100BB2DD0 /* CardGuessTests */,
+				D86FBC6A16F3916000BB2DD0 /* Frameworks */,
+				D86FBC6916F3916000BB2DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D86FBC6916F3916000BB2DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86FBC6816F3916000BB2DD0 /* CardGuess.app */,
+				D86FBC8816F3916100BB2DD0 /* CardGuessTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D86FBC6A16F3916000BB2DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D86FBC6B16F3916000BB2DD0 /* UIKit.framework */,
+				D86FBC6D16F3916000BB2DD0 /* Foundation.framework */,
+				D86FBC6F16F3916000BB2DD0 /* CoreGraphics.framework */,
+				D86FBC8916F3916100BB2DD0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D86FBC7116F3916000BB2DD0 /* CardGuess */ = {
+			isa = PBXGroup;
+			children = (
+				D86FBC7A16F3916000BB2DD0 /* AppDelegate.h */,
+				D86FBC7B16F3916000BB2DD0 /* AppDelegate.m */,
+				D86FBC7216F3916000BB2DD0 /* Supporting Files */,
+			);
+			path = CardGuess;
+			sourceTree = "<group>";
+		};
+		D86FBC7216F3916000BB2DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D86FBC7316F3916000BB2DD0 /* CardGuess-Info.plist */,
+				D86FBC7416F3916000BB2DD0 /* InfoPlist.strings */,
+				D86FBC7716F3916000BB2DD0 /* main.m */,
+				D86FBC7916F3916000BB2DD0 /* CardGuess-Prefix.pch */,
+				D86FBC7D16F3916000BB2DD0 /* Default.png */,
+				D86FBC7F16F3916000BB2DD0 /* Default@2x.png */,
+				D86FBC8116F3916000BB2DD0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D86FBC8F16F3916100BB2DD0 /* CardGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				D86FBC9516F3916100BB2DD0 /* CardGuessTests.h */,
+				D86FBC9616F3916100BB2DD0 /* CardGuessTests.m */,
+				D86FBC9016F3916100BB2DD0 /* Supporting Files */,
+			);
+			path = CardGuessTests;
+			sourceTree = "<group>";
+		};
+		D86FBC9016F3916100BB2DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D86FBC9116F3916100BB2DD0 /* CardGuessTests-Info.plist */,
+				D86FBC9216F3916100BB2DD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D86FBC6716F3916000BB2DD0 /* CardGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86FBC9A16F3916100BB2DD0 /* Build configuration list for PBXNativeTarget "CardGuess" */;
+			buildPhases = (
+				D86FBC6416F3916000BB2DD0 /* Sources */,
+				D86FBC6516F3916000BB2DD0 /* Frameworks */,
+				D86FBC6616F3916000BB2DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardGuess;
+			productName = CardGuess;
+			productReference = D86FBC6816F3916000BB2DD0 /* CardGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D86FBC8716F3916100BB2DD0 /* CardGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86FBC9D16F3916100BB2DD0 /* Build configuration list for PBXNativeTarget "CardGuessTests" */;
+			buildPhases = (
+				D86FBC8316F3916100BB2DD0 /* Sources */,
+				D86FBC8416F3916100BB2DD0 /* Frameworks */,
+				D86FBC8516F3916100BB2DD0 /* Resources */,
+				D86FBC8616F3916100BB2DD0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86FBC8E16F3916100BB2DD0 /* PBXTargetDependency */,
+			);
+			name = CardGuessTests;
+			productName = CardGuessTests;
+			productReference = D86FBC8816F3916100BB2DD0 /* CardGuessTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D86FBC6016F3916000BB2DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = nyu.edu;
+			};
+			buildConfigurationList = D86FBC6316F3916000BB2DD0 /* Build configuration list for PBXProject "CardGuess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D86FBC5F16F3916000BB2DD0;
+			productRefGroup = D86FBC6916F3916000BB2DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D86FBC6716F3916000BB2DD0 /* CardGuess */,
+				D86FBC8716F3916100BB2DD0 /* CardGuessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D86FBC6616F3916000BB2DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FBC7616F3916000BB2DD0 /* InfoPlist.strings in Resources */,
+				D86FBC7E16F3916000BB2DD0 /* Default.png in Resources */,
+				D86FBC8016F3916000BB2DD0 /* Default@2x.png in Resources */,
+				D86FBC8216F3916000BB2DD0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86FBC8516F3916100BB2DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FBC9416F3916100BB2DD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D86FBC8616F3916100BB2DD0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D86FBC6416F3916000BB2DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FBC7816F3916000BB2DD0 /* main.m in Sources */,
+				D86FBC7C16F3916000BB2DD0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86FBC8316F3916100BB2DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FBC9716F3916100BB2DD0 /* CardGuessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D86FBC8E16F3916100BB2DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D86FBC6716F3916000BB2DD0 /* CardGuess */;
+			targetProxy = D86FBC8D16F3916100BB2DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D86FBC7416F3916000BB2DD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86FBC7516F3916000BB2DD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D86FBC9216F3916100BB2DD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86FBC9316F3916100BB2DD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D86FBC9816F3916100BB2DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D86FBC9916F3916100BB2DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D86FBC9B16F3916100BB2DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardGuess/CardGuess-Prefix.pch";
+				INFOPLIST_FILE = "CardGuess/CardGuess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D86FBC9C16F3916100BB2DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardGuess/CardGuess-Prefix.pch";
+				INFOPLIST_FILE = "CardGuess/CardGuess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D86FBC9E16F3916100BB2DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CardGuess.app/CardGuess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardGuess/CardGuess-Prefix.pch";
+				INFOPLIST_FILE = "CardGuessTests/CardGuessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D86FBC9F16F3916100BB2DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CardGuess.app/CardGuess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardGuess/CardGuess-Prefix.pch";
+				INFOPLIST_FILE = "CardGuessTests/CardGuessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D86FBC6316F3916000BB2DD0 /* Build configuration list for PBXProject "CardGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86FBC9816F3916100BB2DD0 /* Debug */,
+				D86FBC9916F3916100BB2DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86FBC9A16F3916100BB2DD0 /* Build configuration list for PBXNativeTarget "CardGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86FBC9B16F3916100BB2DD0 /* Debug */,
+				D86FBC9C16F3916100BB2DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D86FBC9D16F3916100BB2DD0 /* Build configuration list for PBXNativeTarget "CardGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86FBC9E16F3916100BB2DD0 /* Debug */,
+				D86FBC9F16F3916100BB2DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D86FBC6016F3916000BB2DD0 /* Project object */;
+}
