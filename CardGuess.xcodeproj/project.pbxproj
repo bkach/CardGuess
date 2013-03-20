@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D857788A16F3C52800999E3E /* hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = D857788616F3C52800999E3E /* hearts.png */; };
+		D857788B16F3C52800999E3E /* spades.png in Resources */ = {isa = PBXBuildFile; fileRef = D857788716F3C52800999E3E /* spades.png */; };
+		D857788C16F3C52800999E3E /* clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = D857788816F3C52800999E3E /* clubs.png */; };
+		D857788D16F3C52800999E3E /* diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = D857788916F3C52800999E3E /* diamonds.png */; };
+		D857789116F3C81700999E3E /* hint.png in Resources */ = {isa = PBXBuildFile; fileRef = D857788E16F3C81700999E3E /* hint.png */; };
+		D857789216F3C81700999E3E /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = D857788F16F3C81700999E3E /* unlock.png */; };
+		D857789316F3C81700999E3E /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = D857789016F3C81700999E3E /* eye.png */; };
+		D857789516F3C94400999E3E /* suits.png in Resources */ = {isa = PBXBuildFile; fileRef = D857789416F3C94400999E3E /* suits.png */; };
+		D857789716F3CE1300999E3E /* suits_57.png in Resources */ = {isa = PBXBuildFile; fileRef = D857789616F3CE1300999E3E /* suits_57.png */; };
+		D857789916F3CE1A00999E3E /* suits_114.png in Resources */ = {isa = PBXBuildFile; fileRef = D857789816F3CE1900999E3E /* suits_114.png */; };
+		D857789B16F3E0E300999E3E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D857789A16F3E0E300999E3E /* AudioToolbox.framework */; };
+		D857789D16F3E2EA00999E3E /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D857789C16F3E2EA00999E3E /* win.mp3 */; };
 		D86FBC6C16F3916000BB2DD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6B16F3916000BB2DD0 /* UIKit.framework */; };
 		D86FBC6E16F3916000BB2DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6D16F3916000BB2DD0 /* Foundation.framework */; };
 		D86FBC7016F3916000BB2DD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6F16F3916000BB2DD0 /* CoreGraphics.framework */; };
@@ -21,6 +33,14 @@
 		D86FBC8C16F3916100BB2DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86FBC6D16F3916000BB2DD0 /* Foundation.framework */; };
 		D86FBC9416F3916100BB2DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D86FBC9216F3916100BB2DD0 /* InfoPlist.strings */; };
 		D86FBC9716F3916100BB2DD0 /* CardGuessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FBC9616F3916100BB2DD0 /* CardGuessTests.m */; };
+		D86FBCA616F3924D00BB2DD0 /* UnlockItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FBCA416F3924D00BB2DD0 /* UnlockItViewController.m */; };
+		D86FBCA716F3924D00BB2DD0 /* UnlockItViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86FBCA516F3924D00BB2DD0 /* UnlockItViewController.xib */; };
+		D86FBCAB16F3927500BB2DD0 /* CheckItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FBCA916F3927500BB2DD0 /* CheckItViewController.m */; };
+		D86FBCAC16F3927500BB2DD0 /* CheckItViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86FBCAA16F3927500BB2DD0 /* CheckItViewController.xib */; };
+		D86FBCB016F3927E00BB2DD0 /* HintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FBCAE16F3927E00BB2DD0 /* HintViewController.m */; };
+		D86FBCB116F3927E00BB2DD0 /* HintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86FBCAF16F3927E00BB2DD0 /* HintViewController.xib */; };
+		D86FBCBA16F3946A00BB2DD0 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86FBCB916F3946A00BB2DD0 /* TabBarController.xib */; };
+		D86FBCC416F3A91600BB2DD0 /* rootController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86FBCC316F3A91600BB2DD0 /* rootController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D857788616F3C52800999E3E /* hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hearts.png; sourceTree = "<group>"; };
+		D857788716F3C52800999E3E /* spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spades.png; sourceTree = "<group>"; };
+		D857788816F3C52800999E3E /* clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubs.png; sourceTree = "<group>"; };
+		D857788916F3C52800999E3E /* diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamonds.png; sourceTree = "<group>"; };
+		D857788E16F3C81700999E3E /* hint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hint.png; sourceTree = "<group>"; };
+		D857788F16F3C81700999E3E /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
+		D857789016F3C81700999E3E /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		D857789416F3C94400999E3E /* suits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suits.png; sourceTree = "<group>"; };
+		D857789616F3CE1300999E3E /* suits_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suits_57.png; sourceTree = "<group>"; };
+		D857789816F3CE1900999E3E /* suits_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suits_114.png; sourceTree = "<group>"; };
+		D857789A16F3E0E300999E3E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D857789C16F3E2EA00999E3E /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = win.mp3; path = ../../../../../../Desktop/win.mp3; sourceTree = "<group>"; };
 		D86FBC6816F3916000BB2DD0 /* CardGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86FBC6B16F3916000BB2DD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D86FBC6D16F3916000BB2DD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +85,18 @@
 		D86FBC9316F3916100BB2DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D86FBC9516F3916100BB2DD0 /* CardGuessTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGuessTests.h; sourceTree = "<group>"; };
 		D86FBC9616F3916100BB2DD0 /* CardGuessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGuessTests.m; sourceTree = "<group>"; };
+		D86FBCA316F3924D00BB2DD0 /* UnlockItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockItViewController.h; sourceTree = "<group>"; };
+		D86FBCA416F3924D00BB2DD0 /* UnlockItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockItViewController.m; sourceTree = "<group>"; };
+		D86FBCA516F3924D00BB2DD0 /* UnlockItViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnlockItViewController.xib; sourceTree = "<group>"; };
+		D86FBCA816F3927500BB2DD0 /* CheckItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckItViewController.h; sourceTree = "<group>"; };
+		D86FBCA916F3927500BB2DD0 /* CheckItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckItViewController.m; sourceTree = "<group>"; };
+		D86FBCAA16F3927500BB2DD0 /* CheckItViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckItViewController.xib; sourceTree = "<group>"; };
+		D86FBCAD16F3927E00BB2DD0 /* HintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintViewController.h; sourceTree = "<group>"; };
+		D86FBCAE16F3927E00BB2DD0 /* HintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintViewController.m; sourceTree = "<group>"; };
+		D86FBCAF16F3927E00BB2DD0 /* HintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HintViewController.xib; sourceTree = "<group>"; };
+		D86FBCB916F3946A00BB2DD0 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		D86FBCC216F3A91600BB2DD0 /* rootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootController.h; sourceTree = "<group>"; };
+		D86FBCC316F3A91600BB2DD0 /* rootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D857789B16F3E0E300999E3E /* AudioToolbox.framework in Frameworks */,
 				D86FBC6C16F3916000BB2DD0 /* UIKit.framework in Frameworks */,
 				D86FBC6E16F3916000BB2DD0 /* Foundation.framework in Frameworks */,
 				D86FBC7016F3916000BB2DD0 /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +127,9 @@
 		D86FBC5F16F3916000BB2DD0 = {
 			isa = PBXGroup;
 			children = (
+				D857789A16F3E0E300999E3E /* AudioToolbox.framework */,
+				D857789816F3CE1900999E3E /* suits_114.png */,
+				D857789616F3CE1300999E3E /* suits_57.png */,
 				D86FBC7116F3916000BB2DD0 /* CardGuess */,
 				D86FBC8F16F3916100BB2DD0 /* CardGuessTests */,
 				D86FBC6A16F3916000BB2DD0 /* Frameworks */,
@@ -112,9 +160,22 @@
 		D86FBC7116F3916000BB2DD0 /* CardGuess */ = {
 			isa = PBXGroup;
 			children = (
+				D86FBCB616F3940100BB2DD0 /* TabBarIcons */,
 				D86FBC7A16F3916000BB2DD0 /* AppDelegate.h */,
 				D86FBC7B16F3916000BB2DD0 /* AppDelegate.m */,
 				D86FBC7216F3916000BB2DD0 /* Supporting Files */,
+				D86FBCA316F3924D00BB2DD0 /* UnlockItViewController.h */,
+				D86FBCA416F3924D00BB2DD0 /* UnlockItViewController.m */,
+				D86FBCA516F3924D00BB2DD0 /* UnlockItViewController.xib */,
+				D86FBCA816F3927500BB2DD0 /* CheckItViewController.h */,
+				D86FBCA916F3927500BB2DD0 /* CheckItViewController.m */,
+				D86FBCAA16F3927500BB2DD0 /* CheckItViewController.xib */,
+				D86FBCAD16F3927E00BB2DD0 /* HintViewController.h */,
+				D86FBCAE16F3927E00BB2DD0 /* HintViewController.m */,
+				D86FBCAF16F3927E00BB2DD0 /* HintViewController.xib */,
+				D86FBCB916F3946A00BB2DD0 /* TabBarController.xib */,
+				D86FBCC216F3A91600BB2DD0 /* rootController.h */,
+				D86FBCC316F3A91600BB2DD0 /* rootController.m */,
 			);
 			path = CardGuess;
 			sourceTree = "<group>";
@@ -122,6 +183,12 @@
 		D86FBC7216F3916000BB2DD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D857788616F3C52800999E3E /* hearts.png */,
+				D857788716F3C52800999E3E /* spades.png */,
+				D857788816F3C52800999E3E /* clubs.png */,
+				D857788916F3C52800999E3E /* diamonds.png */,
+				D857789C16F3E2EA00999E3E /* win.mp3 */,
+				D857789416F3C94400999E3E /* suits.png */,
 				D86FBC7316F3916000BB2DD0 /* CardGuess-Info.plist */,
 				D86FBC7416F3916000BB2DD0 /* InfoPlist.strings */,
 				D86FBC7716F3916000BB2DD0 /* main.m */,
@@ -150,6 +217,16 @@
 				D86FBC9216F3916100BB2DD0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D86FBCB616F3940100BB2DD0 /* TabBarIcons */ = {
+			isa = PBXGroup;
+			children = (
+				D857788E16F3C81700999E3E /* hint.png */,
+				D857788F16F3C81700999E3E /* unlock.png */,
+				D857789016F3C81700999E3E /* eye.png */,
+			);
+			path = TabBarIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +304,21 @@
 				D86FBC7E16F3916000BB2DD0 /* Default.png in Resources */,
 				D86FBC8016F3916000BB2DD0 /* Default@2x.png in Resources */,
 				D86FBC8216F3916000BB2DD0 /* Default-568h@2x.png in Resources */,
+				D86FBCA716F3924D00BB2DD0 /* UnlockItViewController.xib in Resources */,
+				D86FBCAC16F3927500BB2DD0 /* CheckItViewController.xib in Resources */,
+				D86FBCB116F3927E00BB2DD0 /* HintViewController.xib in Resources */,
+				D86FBCBA16F3946A00BB2DD0 /* TabBarController.xib in Resources */,
+				D857788A16F3C52800999E3E /* hearts.png in Resources */,
+				D857788B16F3C52800999E3E /* spades.png in Resources */,
+				D857788C16F3C52800999E3E /* clubs.png in Resources */,
+				D857788D16F3C52800999E3E /* diamonds.png in Resources */,
+				D857789116F3C81700999E3E /* hint.png in Resources */,
+				D857789216F3C81700999E3E /* unlock.png in Resources */,
+				D857789316F3C81700999E3E /* eye.png in Resources */,
+				D857789516F3C94400999E3E /* suits.png in Resources */,
+				D857789716F3CE1300999E3E /* suits_57.png in Resources */,
+				D857789916F3CE1A00999E3E /* suits_114.png in Resources */,
+				D857789D16F3E2EA00999E3E /* win.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +355,10 @@
 			files = (
 				D86FBC7816F3916000BB2DD0 /* main.m in Sources */,
 				D86FBC7C16F3916000BB2DD0 /* AppDelegate.m in Sources */,
+				D86FBCA616F3924D00BB2DD0 /* UnlockItViewController.m in Sources */,
+				D86FBCAB16F3927500BB2DD0 /* CheckItViewController.m in Sources */,
+				D86FBCB016F3927E00BB2DD0 /* HintViewController.m in Sources */,
+				D86FBCC416F3A91600BB2DD0 /* rootController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +531,7 @@
 				D86FBC9C16F3916100BB2DD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D86FBC9D16F3916100BB2DD0 /* Build configuration list for PBXNativeTarget "CardGuessTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +540,7 @@
 				D86FBC9F16F3916100BB2DD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
